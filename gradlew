@@ -34,8 +34,8 @@
 #         * functions;
 #         * expansions «$var», «${var}», «${var:-default}», «${var+SET}»,
 #           «${var#prefix}», «${var%suffix}», and «$( cmd )»;
-#         * compound commands having a testable exit status, especially «case»;
-#         * various built-in commands including «command», «set», and «ulimit».
+#         * compound tiki.walletbaby.commands having a testable exit status, especially «case»;
+#         * various built-in tiki.walletbaby.commands including «command», «set», and «ulimit».
 #
 #   Important for patching:
 #
@@ -156,7 +156,7 @@ fi
 
 # Collect all arguments for the java command, stacking in reverse order:
 #   * args from the command line
-#   * the main class name
+#   * the tiki.walletbaby.main class name
 #   * -classpath
 #   * -D...appname settings
 #   * --module-path (only if needed)
